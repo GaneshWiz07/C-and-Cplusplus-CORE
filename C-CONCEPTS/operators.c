@@ -23,7 +23,22 @@ int main(){
         printf("Division of %d and %d = %d\n", a,b,f);
         int g=a%b;
         printf("Modulus of %d and %d = %d\n", a,b,g);
-        
+        bool h=a>b;
+        printf("Greater than of %d and %d = %d\n", a,b,h);
+        bool i=a<b;
+        printf("Less than of %d and %d = %d\n", a,b,i);
+        bool j=a>=b;
+        printf("Greater than or equal to of %d and %d = %d\n", a,b,j);
+        bool k=a<=b;
+        printf("Less than or equal to of %d and %d = %d\n", a,b,k);
+        bool l=a==b;
+        printf("Equal to of %d and %d = %d\n", a,b,l);
+        bool m=a!=b;
+        printf("Not equal to of %d and %d = %d\n", a,b,m);
+        printf("--------------------------------\n");
+        printf("ASSIGNMENT OPERATOR\n");
+        assignment_operator();
+        printf("--------------------------------\n");
         // Increment/Decrement operators demonstration
         int h=a++;  // Post-increment
         printf(" Post Increment of %d = %d\n", a,h);
@@ -37,6 +52,12 @@ int main(){
         printf("--------------------------------\n");
         printf("SHORT HAND OPERATOR\n");
         short_hand_operator();
+        printf("--------------------------------\n");
+        printf("LOGICAL OPERATOR\n");
+        logical_operator();
+        printf("--------------------------------\n");
+        printf("BITWISE OPERATOR\n");
+        bitwise_operator();
         return 0;
 }
 
